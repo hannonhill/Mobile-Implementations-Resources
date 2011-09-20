@@ -1,0 +1,13 @@
+#set ( $path  = $_XPathTool.selectSingleNode($contentRoot, "/system-index-block/calling-page/system-page/path").value )
+#set ( $path  = $path.replaceAll("/charlie","") )
+#set ( $url_w = "http://www.cascade-test.com/charlie/global" )
+#set ( $url_m = "http://m.cascade-test.com/charlie/global" )
+
+<h2>Outputs</h2>
+<p id="outputs">
+	<img alt="Standard output" src="/charlie/_files/images/icons/page.png"/> <a href="${url_w}${path}.php">HTML</a>
+		<br/>
+	<img alt="Mobile output" src="/charlie/_files/images/icons/phone.png"/> <a href="${url_m}${path}.php">Mobile</a>
+		<br/>
+	<img alt="Text output" src="/charlie/_files/images/icons/page_white.png"/> <a href="${url_w}${path}-lite.php">Text</a>
+</p>
