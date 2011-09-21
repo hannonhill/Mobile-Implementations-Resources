@@ -1,0 +1,9 @@
+#set ( $path = $_XPathTool.selectSingleNode($contentRoot, "/system-index-block/calling-page/system-page/path").value )
+#set ( $path = $path.replaceAll("/charlie","") )
+#set ( $url_w = "http://www.cascade-test.com/charlie/global" )
+
+<ul>
+	<li><a href="/index">Home</a></li>
+	<li><a href="#navigation">Skip to Navigation</a></li>
+	<li class="last"><a href="${url_w}${path}.php">Full Site</a></li>
+</ul>

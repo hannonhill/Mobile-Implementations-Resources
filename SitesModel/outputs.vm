@@ -1,0 +1,8 @@
+<h2>Outputs</h2>
+<p id="outputs">
+	<img alt="Standard output" src="/_files/images/icons/page.png"/> <a system-page-output="HTML">HTML</a>
+		<br/>
+	<img alt="Mobile output" src="/_files/images/icons/phone.png"/> <a system-page-output="Mobile">Mobile</a>
+		<br/>
+	<img alt="Text output" src="/_files/images/icons/page_white.png"/> <a system-page-output="Text">Text</a>
+</p>
